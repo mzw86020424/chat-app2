@@ -12,7 +12,7 @@ class RoomsController < ApplicationController
     if @room.save
       redirect_to root_path
     else
-      render :ner
+      render :new
     end
   end
 
